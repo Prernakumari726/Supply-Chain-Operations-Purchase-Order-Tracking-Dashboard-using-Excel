@@ -1,24 +1,28 @@
-# Supply Chain Operations & Purchase Order Tracking Dashboard using Excel
+# Supply Chain Operations & Purchase Order Monitoring Dashboard using Excel
 
 ## 📌 Project Overview
-This project is an interactive Supply Chain Operations Dashboard developed using Microsoft Excel to analyse supply chain activities, monitor purchase orders (PO), track supplier performance, and evaluate logistics operations. The dashboard provides operational insights related to shipping costs, lead times, transportation analysis, inventory monitoring, and defect tracking using Pivot Tables, charts, slicers, and KPI reporting techniques.
+
+This project is an interactive Excel-based Supply Chain Analytics Dashboard developed to monitor purchase orders, supplier performance, shipment activities, transportation patterns, inventory risks, and operational reporting metrics. The project focuses on end-to-end supply chain monitoring and reporting through dashboard-driven analysis.
+
+The dashboard was created to simulate real-world supply chain reporting workflows commonly used in operations and analytics roles.
 
 ---
 
 ## 🎯 Project Objective
-The objective of this project is to support supply chain monitoring and operational reporting by building an Excel-based dashboard that helps analyse:
 
-- Purchase Order (PO) tracking
-- Supplier performance
-- Shipping and logistics costs
-- Lead time analysis
-- Transportation mode distribution
-- Defect rate monitoring
-- Operational KPI tracking
+The objective of this project is to support supply chain monitoring and reporting activities by analysing:
+
+- Purchase Order (PO) monitoring
+- Supplier performance tracking
+- Delivery and shipment monitoring
+- Transportation analysis
+- Inventory risk monitoring
+- Defect rate tracking
+- Operational reporting trends
 
 ---
 
-## 🛠️ Tools & Features Used
+## 🛠️ Tools Used
 
 - Microsoft Excel
 - Pivot Tables
@@ -26,8 +30,7 @@ The objective of this project is to support supply chain monitoring and operatio
 - KPI Cards
 - Slicers
 - Conditional Formatting
-- Operational Reporting
-- Data Visualization
+- Dashboard Reporting
 
 ---
 
@@ -49,57 +52,90 @@ The dataset contains supply chain operational data including:
 - Manufacturing Costs
 - Inspection Results
 - Defect Rates
-- Operational Costs
+- Purchase Order Status
+- Delivery Status
+- Inventory Risk Levels
 
 Dataset preview available in uploaded file. :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 📊 Dashboard Features
+# 📊 Dashboard Structure
 
-### KPI Cards
-The dashboard includes the following KPIs:
+## 1. Supply Chain Operations Dashboard
 
+This dashboard focuses on operational supply chain monitoring and reporting.
+
+### KPI Metrics
 - Total Orders
 - Total Revenue
 - Average Lead Time
 - Average Defect Rate
 - Total Shipping Cost
 
----
+### Dashboard Analysis
+- Order Quantity by Product Type
+- Lead Time Analysis by Location
+- Average Operational Cost by Route
+- Transportation Mode Distribution
+- Average Shipping Cost by Supplier
+- Defect Rate by Supplier
 
-## 📈 Dashboard Visualizations
-
-### 1. Order Quantity by Product Type
-Tracks total order quantities across different product categories.
-
-### 2. Lead Time Analysis by Location
-Compares average lead times across operational locations.
-
-### 3. Average Operational Cost by Route
-Analyses route-wise operational transportation costs.
-
-### 4. Transportation Mode Distribution
-Shows distribution of transportation modes such as Air, Rail, Road, and Sea.
-
-### 5. Average Shipping Cost by Supplier
-Compares supplier-wise average shipping costs.
-
-### 6. Defect Rate by Supplier
-Monitors quality issues and supplier defect trends.
-
----
-
-## 🎛️ Interactive Features
-
-The dashboard includes slicers for:
-
+### Interactive Filters
 - Supplier Name
 - Product Type
 - Location
 - Transportation Mode
 
-These filters enable interactive operational analysis and reporting.
+---
+
+## 2. Purchase Order & Supplier Monitoring Dashboard
+
+This dashboard focuses on operational tracking and supplier monitoring activities.
+
+### KPI Metrics
+- Delayed Deliveries
+- Fast Deliveries
+- Pending Inspections
+- Failed Inspections
+- Approved Orders
+
+### Dashboard Analysis
+- Delivery Performance Monitoring
+- Route-wise Delayed Shipment Analysis
+- Inventory Risk Distribution
+- Defect Rate by Supplier
+- Purchase Order Status by Supplier
+
+### Interactive Filters
+- Routes
+- Transportation Mode
+- Delivery Status
+- Supplier Name
+
+---
+
+## 📌 Key Insights Generated
+
+- Identified transportation routes contributing to higher operational costs and delayed shipment activities
+- Monitored supplier-wise defect trends and inspection failures impacting operational performance
+- Evaluated inventory risk distribution and delivery performance across transportation modes and suppliers
+- Analysed lead time variations and shipping patterns supporting operational monitoring and reporting activities
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Supply Chain Analytics
+- Purchase Order Monitoring
+- Supplier Performance Tracking
+- Operational Reporting
+- Dashboard Development
+- Transportation Analysis
+- Inventory Risk Monitoring
+- KPI Reporting
+- Data Visualization
+- Business Analytics
 
 ---
 
@@ -107,31 +143,10 @@ These filters enable interactive operational analysis and reporting.
 
 | Sheet Name | Description |
 |---|---|
-| supply_chain_data | Raw supply chain dataset |
-| PO_Tracker | Purchase Order tracking and operational monitoring |
-| Supply_Chain_Dashboard | Interactive dashboard and KPI reporting |
-| Pivot | Backend pivot tables for dashboard charts |
+| supply_chain_data | Raw operational dataset |
+| Supply_Chain_Dashboard | Supply chain monitoring dashboard |
+| PO_Supplier_Monitoring | Purchase order and supplier monitoring dashboard |
+| Pivot | Backend pivot tables |
 
 ---
 
-## 📌 Key Insights Generated
-
-- Skincare products recorded the highest order quantities.
-- Route B showed the highest average operational cost.
-- Supplier 5 had the highest average defect rate.
-- Transportation activities were mainly distributed between Road and Rail modes.
-- Lead times varied significantly across locations, impacting operational efficiency.
-
----
-
-## 🚀 Skills Demonstrated
-
-- Supply Chain Analytics
-- Purchase Order Tracking
-- Operational Reporting
-- Dashboard Development
-- KPI Monitoring
-- Logistics Analysis
-- Data Visualization
-- Excel Reporting
-- Business Analytics
